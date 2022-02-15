@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="uft-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indira gandhi engineering college -IGEC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,400;0,600;1,300;1,500&display=swap">
+
+    <script src="https://kit.fontawesome.com/e161b7c305.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="departments.html">DEPARTMENTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>INDIRA GANDHI ENGINEERING COLLEGE SAGAR(M.P.)</h1>
+            <P>Jablpur Road , Makroniya Station , Sagar (M.P.)-470004 </P>
+            <p>Declared Autonomous By The government Of Madhya Pradesh </p>
+            <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+    </section>
+
+    <!-- ------------------course---------------------- -->
+    <section class="course">
+        <h1> course we offer</h1>
+        <p>Our college offer a B.tech courses</p>
+        <div class="course-col">
+            <h3>Civil Engineering</h3>
+            <p></p>
+        </div>
+        <div class="course-col">
+            <h3> Mechanical Engineering</h3>
+            <p></p>
+        </div>
+        <div class="course-col">
+            <h3> Electrical Engineering</h3>
+            <p></p>
+        </div>
+
+        <div class="course-col">
+            <h3>Electronics & Communication Engineering</h3>
+            <p></p>
+        </div>
+        <div class="course-col">
+            <h3> Information Engineering</h3>
+            <p></p>
+        </div>
+
+
+    </section>
+
+    <!-- ----------------------------------------campus------------------------------ -->
+
+    <section class="campus">
+        <h1>our campus</h1>
+        <p>
+            This college was established by government of Madhya Pradesh in November 1981 keeping the industrial development of Bundelkhand region in view and named it Government Engineering College Sagar and the name has been modified as Indira Gandhi Engineering
+            College Sagar later on. The college is recognized by All India Council for Technical Education (A I C T E) and all the courses are approved by AICTE as per mandate. . </p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/igec2.jpg">
+                <div class="layer"></div>
+                <h3>College View</h3>
+            </div>
+            <div class="campus-col">
+                <img src="images/allcampus.jpeg">
+                <div class="layer"></div>
+                <h3>Infrastructure</h3>
+            </div>
+            <div class="campus-col">
+                <img src="images/hostel.jpg">
+                <div class="layer"></div>
+                <h3>Hostel </h3>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ----------------------facilities------------------------------- -->
+
+    <section class="activities">
+        <h1>Our activities</h1>
+        <p>Our college conducting sevral activities</p>
+        <div class="row">
+            <div class="activities-col">
+                <img src="images/culturalfest.jpeg" alt="">
+                <h3>CULTURAL ACTIVITIES</h3>
+                <P>The cultural committee of the college encourages the students to take part in a wide variety of cultural competitions such as singing, dancing, debates, creative writing etc. and holds various cultural activities throughout the year</P>
+            </div>
+
+            <div class="activities-col">
+                <img src="images/sports.jpg" alt="">
+                <h3> SPORTS ACTIVITIES</h3>
+                <P>The college has setup a “Gymkhana Committee” to manage the sports activities at the college and encouraging the students to participate in the activities outside the campus.</P>
+            </div>
+
+            <div class="activities-col">
+                <img src="images/ncc.jpg" alt="">
+                <h3>NCC </h3>
+                <P> College is equipped with several infrastructural facilities for NCC training programme and provides ample opportunities to the cadets by way of conducting firing camps, drill practices, personality development and voluntary service programmes.</P>
+            </div>
+        </div>
+
+    </section>
+    <!-- ----------------------------textimonials----------------- -->
+    <!-- <section class="testimonials"> -->
+
+    <!-- ----------------------call to action----------- -->
+    <section class="cta">
+        <h1>Enroll for our courses</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+
+    </section>
+    <!-- ------------------------Footer--------------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, M. P.
+            <br> & <br> The college is recognized by All India Council for Technical Education (A I C T E)
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p> made by <i class="fa fa-heart-o"></i> igec student</p>
+    </section>
+
+
+
+
+
+
+
+    <!-- ------------------javascript for toggle menu------------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+
+</html>

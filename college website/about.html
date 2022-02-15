@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indira gandhi engineering college -IGEC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,400;0,600;1,300;1,500&display=swap">
+
+    <script src="https://kit.fontawesome.com/e161b7c305.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="departments.html">DEPARTMENTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+    <!-- ---------------------about us content---------------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>OUR COLLEGE</h1>
+                <p>Indira Gandhi Engineering College Sagar is 4th among the 5 government autonomous engineering colleges of Madhya Pradesh. This college was established by government of Madhya Pradesh in November 1981 keeping the industrial development of
+                    Bundelkhand region in view and named it Government Engineering College Sagar and the name has been modified as Indira Gandhi Engineering College Sagar later on. In 1981 the institute was started at its old site in the vicinity of Dr.
+                    Hari Singh Gour University Sagar. In December 1986 the institute was shifted to the newly constructed buildings in the land of 220 Acres area allotted by government of Madhya Pradesh in 1985 on a hillock near Baheriya Village of Sagar
+                    District, which is about 10 km away from Sagar City. Since, November 1981 College started with an intake of 40 students in Bachelor of Engineering program anonymously, which was a five year degree course and the branches were allotted
+                    in third year. The intake was increased from 40 to 80 in the year 1983. In the year 1984-85 Civil Engineering, in 1985-86 Mechanical Engineering, in 1988-89 Electrical Engineering, in 1990-91 Electronics and Communication Engineering
+                    and in 2000 Information Technology branches were started. Initially, the college was affiliated with Sagar University and in year 2000, it has been affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, M. P. The college is
+                    recognized by All India Council for Technical Education (A I C T E) and all the courses are approved by AICTE as per mandate. </p>
+                <br>
+                <h1>MANAGEMENT</h1>
+                <P>IGEC Sagar has been declared autonomous by the Government of Madhya Pradesh. It is governed by a society named as “Indira Gandhi Engineering College Society” established in 1997. Its Board of Governors constitutes of chairperson: Hon’ble
+                    Minister – Technical Education and Man Power Planning Department, Government of Madhya Pradesh, Member Secretary : Principal – I.G.E.C. Sagar, Hon’ble Members : Principal Secretary – Technical Education and Man Power Planning Department
+                    , Director – Madhya Pradesh Technical Education, Vice Chancellor – Rajeev Gandhi Proudyogiki University Bhopal, Public Representatives, Recognized Industrialists, Regional Officer of AICTE and Senior Faculty Members of IGEC Sagar.</P>
+                <a href="" class="hero-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------------------Footer--------------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Affiliated to Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, M. P.<br>&
+            <br> The college is recognized by All India Council for Technical Education (A I C T E)
+        </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p> made by <i class="fa fa-heart-o"></i> igec student</p>
+    </section>
+
+
+
+
+
+
+
+    <!-- ------------------javascript for toggle menu------------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
